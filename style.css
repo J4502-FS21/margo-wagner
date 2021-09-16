@@ -26,7 +26,5 @@ img {
 	outline: 0;
 }
 h1 {
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
+	font-family: 'Hind Siliguri', sans-serif;
 }
