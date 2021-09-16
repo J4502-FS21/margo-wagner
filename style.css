@@ -11,6 +11,7 @@ body {
 img {width:50%;}
 
 h1 {
+	color: purple;
   font-size: 2rem;
 	font-family: 'Merriweather', serif;
 }
