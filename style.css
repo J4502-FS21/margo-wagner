@@ -9,12 +9,10 @@ body {
 }
 ul {
 	list-style-type: none;
-}
-a {
-text-decoration: none;
-font-style: italic;
-color: brown;
-font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+	color: brown;
+	font-weight: bold;
 }
 a:hover {color: orange}
 nav {
