@@ -12,7 +12,8 @@ ul {
 }
 a {
 text-decoration: none;
-text-shadow: white;	
+font-style: italic;
+color: blue;	
 }
 img {
 	width:50%;
