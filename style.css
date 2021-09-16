@@ -9,6 +9,8 @@ body {
 }
 ul {
 	list-style-type: none;
-	text-align: justify;
 }
-img {width:50%;}
+img {
+	width:50%;
+	border: none;
+}
