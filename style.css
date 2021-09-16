@@ -13,11 +13,11 @@ ul {
 a {
 text-decoration: none;
 font-style: italic;
-color: white;
+color: brown;
 font-weight: bold;
 }
 nav {
-	background:brown;
+	background:white;
 }
 img {
 	width:50%;
