@@ -7,40 +7,7 @@ body {
   margin: auto;
   margin-top: 3rem;
 }
-
+ul {
+	list-style-type: square;
+}
 img {width:50%;}
-
-h1 {
-	color: purple;
-  font-size: 2rem;
-	font-family: 'Merriweather', serif;
-}
-
-hr {
-  margin-top: 25px;
-  margin-bottom: 20px;
-}
-
-table td, th {
-  border: 1px solid lightgray;
-  padding: 8px;
-}
-
-table th {
-  color: gold;
-  background-color: black;
-}
-
-table {
-  border: 1px solid darkgray;
-  background-color: white;
-  width: 100%;
-  margin-bottom: 200px;
-}
-
-tr:nth-child(even) {
-  background: #CCC
-}
-tr:nth-child(odd) {
-  background: #FFF
-}
