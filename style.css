@@ -16,6 +16,7 @@ font-style: italic;
 color: brown;
 font-weight: bold;
 }
+a:hover {color: orange}
 nav {
 	background:white;
 }
