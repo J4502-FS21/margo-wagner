@@ -10,6 +10,10 @@ body {
 ul {
 	list-style-type: none;
 }
+a {
+text-decoration: underline;
+text-decoration-style: dotted;	
+}
 img {
 	width:50%;
 	border: none;
