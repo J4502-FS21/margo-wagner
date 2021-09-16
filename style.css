@@ -13,9 +13,11 @@ ul {
 a {
 text-decoration: none;
 font-style: italic;
-color: brown;
+color: white;
 font-weight: bold;
-text-transform: uppercase;
+}
+nav {
+	background:brown;
 }
 img {
 	width:50%;
