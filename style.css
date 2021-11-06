@@ -3,7 +3,7 @@ body {
 	text-align: center;
   font-family: "Helvetica", "Arial", sans-serif;
   width: 90%;
-  max-width: 600px;
+  max-width: 900px;
   margin: auto;
   margin-top: 3rem;
 }
@@ -13,12 +13,12 @@ ul {
 a {
 text-decoration: none;
 font-style: italic;
-color: brown;
+color: white;
 font-weight: bold;
 }
 a:hover {color: orange}
 nav {
-	background:white;
+	background:black;
 }
 img {
 	width:50%;
@@ -37,4 +37,47 @@ h3 {
 }
 h3:nth-of-type(2n) {
   font-size: unset;
+}
+
+nav {
+  background: black;
+  color:white;
+  width: 100%;
+  display: inline-block;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  border-bottom: 3px solid white;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 20%;
+}
+
+@media (max-width: 850px) {
+
+  li {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    width: 100%;
+  }
 }
